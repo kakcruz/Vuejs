@@ -19,6 +19,12 @@ export default {
     setTimeout(() => {
       this.nome = "Pedro";
     }, 2000);
+    this.lifeCycle()
   },
+  methods: {
+    lifeCycle(){
+      console.log('Executou')
+    }
+  }
 };
 </script>
